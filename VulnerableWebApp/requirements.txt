@@ -1,3 +1,5 @@
-django==3.0.0
+django==4.2.15
 gunicorn
 
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
